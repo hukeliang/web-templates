@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "spring.mail",
+      "type": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.mail.enable-email-utils",
+      "type": "java.lang.Boolean",
+      "description": "是否启用EmailUtils类",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.mail.from",
+      "type": "java.lang.String",
+      "description": "发件人电子邮箱",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration"
+    },
+    {
+      "name": "spring.mail.host",
+      "type": "java.lang.String",
+      "description": "指定发送邮件的主机",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration"
+    },
+    {
+      "name": "spring.mail.password",
+      "type": "java.lang.String",
+      "description": "发件人电子邮箱密码  POP3\/SMTP服务",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration"
+    },
+    {
+      "name": "spring.mail.port",
+      "type": "java.lang.Integer",
+      "description": "发指定端口",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "defaultValue": 25
+    },
+    {
+      "name": "spring.mail.retry-enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启邮件重试功能",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.mail.retry-frequency",
+      "type": "java.lang.Integer",
+      "description": "邮件重试的次数",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "defaultValue": 3
+    },
+    {
+      "name": "spring.mail.ssl-enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启邮件SSL",
+      "sourceType": "com.cameronsino.toolkit.configuration.EmailConfiguration",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
