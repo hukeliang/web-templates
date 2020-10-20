@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/index}"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../static/test.js"></script>
+</head>
+<body>
+<div layout:fragment="content">
+    <div>Home Page</div>
+    <div th:text="Home Page"></div>
+</div>
+</body>
+</html>

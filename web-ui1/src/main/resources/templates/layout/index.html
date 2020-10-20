@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <!-- 将声明引入的元素，替换为公共片段 (insert|replace|include)-->
+        <div th:replace="layout/header::header"></div>
+        <div layout:fragment="content"></div>
+        <div th:replace="layout/footer::footer"></div>
+    </body>
+</html>

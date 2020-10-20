@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <div th:fragment="footer" class="footer">
+            <p>------------------------------------------------</p>
+            <p>版权：
+                <span th:text="${#dates.format(#dates.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+            </p>
+            <p>------------------------------------------------</p>
+        </div>
+    </body>
+</html>

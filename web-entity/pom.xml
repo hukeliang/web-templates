@@ -9,11 +9,10 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.fastweb.service</groupId>
-    <artifactId>web-service</artifactId>
+    <groupId>com.fastweb.entity</groupId>
+    <artifactId>web-entity</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,21 +22,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.fastweb.service.interface</groupId>
-            <artifactId>web-service-interface</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fastweb.repository.interface</groupId>
-            <artifactId>web-repository-interface</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fastweb.entity</groupId>
-            <artifactId>web-entity</artifactId>
-            <version>1.0</version>
-        </dependency>
 
     </dependencies>
 

@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.fastweb.service.interface</groupId>
-    <artifactId>service-interface</artifactId>
+    <artifactId>web-service-interface</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 

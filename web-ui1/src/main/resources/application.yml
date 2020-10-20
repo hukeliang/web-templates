@@ -1,1 +1,17 @@
+server:
+  port: 18080
+#  servlet:
+#    context-path: /api
 
+
+spring:
+  mvc:
+    ##设置匹配.action后缀的请求的配置
+#    pathmatch:
+#      use-suffix-pattern: false
+#      use-registered-suffix-pattern: true
+#    contentnegotiation:
+#      favor-path-extension: false
+    static-path-pattern: /static/**       #静态资源访问路径
+  resources:
+    static-locations: classpath:/static/  #静态资源映射路径
